@@ -1,0 +1,27 @@
+.appmanager_sidebar{
+    display:flex;
+    height:100vh;
+    position: fixed;
+    width:100vw;
+    z-index: 200;
+}
+
+.appmanager_sidebar__left{
+    flex: 0.2;
+    min-width: 220px;
+    background-color:#fff;
+}
+.appmanager_sidebar__left >h3{
+    padding:20px 5px;
+    margin-left:20px;
+}
+.appmanager_sidebar__left >hr{
+    background-color:lightgray;
+    height:1px;
+}
+
+.appmanager_sidebar__right{
+    flex: 0.8;
+    background-color:rgba(0,0,0,.5);
+    opacity: 0.5;
+}

@@ -1,0 +1,7 @@
+.appmanager_right{
+    height:80vh;
+    padding:10vh 0vh;
+    width: 70vw;
+    min-width: 650px;
+    margin-left:calc(20vw + 180px);
+}

@@ -1,0 +1,71 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    padding: 0px 16px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color:white;
+}
+.header__menu{
+    padding: 8px;
+    margin-right: 16px;
+}
+.header__logo{
+    height:18px;
+    padding:12px 0px;
+    color:red;
+}
+.hiddenMenuLogo{
+    margin-left: 15px;
+}
+.header__hiddenmenu{
+    position:fixed;
+    width:240px;
+    top:0px;
+    padding-top: 5px;
+    height:100vh;
+    background:white;
+    left:0px;
+    z-index:100;
+}
+.header__hiddenoverlay{
+    position:fixed;
+    background:rgba(0, 0, 0, 0.5);
+    width:100%;
+    opacity: 0.5;
+    height:200%;
+    left:0px;
+    top:0px;
+}
+.header__input{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid black;
+}
+.header__inputButton{
+    width:50px !important;
+    background-color:#fafafa;
+    border-left: 1px solid lightgray;
+    color:gray;
+}
+.header__input > input{
+    flex:1;
+    border: none;
+}
+.header__input > input:focus{
+    outline-width: 0;
+
+}
+.header__icons{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    color: #606060;
+}
+.header__icon{
+    margin-right:10px;
+}

@@ -1,0 +1,23 @@
+.appmanager_sidebarRow{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding-left:20px;
+}
+
+.appmanager_sidebarRow__title{
+    flex: 1;
+    font-size: 12px;
+    font-weight:500;
+}
+.appmanager_sidebarRow a{
+    text-decoration: none;
+}
+.appmanager_sidebarRow:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.appmanager_link{
+    text-decoration: none;
+    color:black;
+}

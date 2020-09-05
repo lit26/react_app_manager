@@ -1,0 +1,14 @@
+.programCard{
+    height: 140px;
+    display:flex;
+    margin:30px 0px;
+}
+.programCard__info{
+    margin-top: 10px;
+}
+
+.programCard > .MuiSvgIcon-root{
+    width:3em;
+    height:3em;
+    margin-right:20px;
+}
