@@ -7,7 +7,7 @@ import google_clone from './apps/google_clone/src/App'
 export const apps = [
   {
     "title": "Home",
-    "path": "",
+    "path": "/react_app_manager",
     "description": "",
     "app": Home
   },
