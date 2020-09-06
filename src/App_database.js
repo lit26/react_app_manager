@@ -4,11 +4,10 @@ import Home from './components/Home'
 import youtube_clone from './apps/youtube_clone/src/App'
 import google_clone from './apps/google_clone/src/App'
 
-
 export const apps = [
   {
     "title": "Home",
-    "path": "/home",
+    "path": "",
     "description": "",
     "app": Home
   },
